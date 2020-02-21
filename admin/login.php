@@ -43,8 +43,6 @@
 			}
 			else
 			{
-				var_dump("expression");
-			die();
 				header("Location: login.php?msg=1");
 				exit();
 			}
