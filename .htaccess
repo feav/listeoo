@@ -1,0 +1,5 @@
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.cashback.local [NC]
+RewriteRule ^(.*)$ http://cashback.local/$1 [L,R=301]
